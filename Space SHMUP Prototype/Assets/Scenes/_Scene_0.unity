@@ -759,5 +759,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabEnemies:
   - {fileID: 5081057948645846949, guid: ff9b63b1083ba5145a84c5c22c85e961, type: 3}
-  enemySpawnPerSecond: 0.5
+  - {fileID: 3055787413114026736, guid: 7f35a51ed80402c4eaa42eb92f3d39cd, type: 3}
+  enemySpawnPerSecond: 1
   enemyDefaultPadding: 1.5
