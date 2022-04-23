@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5081057948645846950}
   - component: {fileID: 5081057948645846951}
+  - component: {fileID: -2476276275578818838}
+  - component: {fileID: 8796342417449143095}
   m_Layer: 0
   m_Name: Enemy_0
   m_TagString: Untagged
@@ -49,6 +51,39 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 120
   m_CollisionDetection: 0
+--- !u!114 &-2476276275578818838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5081057948645846949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb98f4e6e9e7144e81cc47681082401, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  fireRate: 0.3
+  health: 10
+  score: 100
+--- !u!114 &8796342417449143095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5081057948645846949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecbdc54b2d132054ea4bf6a751dbd23b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: -2.5
+  keepOnScreen: 0
+  isOnScreen: 1
+  camWidth: 0
+  camHeight: 0
 --- !u!1 &5081057948882949097
 GameObject:
   m_ObjectHideFlags: 0
